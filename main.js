@@ -108,6 +108,7 @@ ipcMain.on('logs:update', async(e,_id,status) =>{
 		sendLogs()
 	} catch (err){
 		console.log(err)
+		console.log(err)
 	}
 })
 
